@@ -1,0 +1,473 @@
+body {
+  background-image: repeating-linear-gradient(175deg, #01091C, #01091C, #18183a, #18183a, #4d2a03, #01091C, #01091C, #18183a, #18183a, #472804, #01091C, #01091C);
+  color: #ffffff !important;
+  margin: 0;
+}
+
+.firstsection {
+  padding: 82px 0px 82px;
+}
+
+.bannertext h2 {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.parent {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.child {
+  display: flex;
+  align-items: center;
+}
+
+.thirdsection {
+  background: url(../images/image21.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+.content {
+  backdrop-filter: blur(5px);
+  min-height: 400px;
+  position: relative;
+}
+
+.content:hover {
+  backdrop-filter: blur(0);
+}
+
+.content:hover .head {
+  color: #FA9827;
+}
+
+
+
+.contenttext {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
+  padding: 20px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contenttext .head {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.forthsection {
+  margin-top: 25px;
+}
+
+.forthsection h2 {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.forthsection .head {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.forthsection .desc {
+  font-size: 14px;
+}
+
+.sixthsection {
+  border-radius: 10px;
+  background-color: #000;
+  margin: 25px 0px 25px;
+  padding: 35px;
+}
+
+.sixthsection .text {
+  text-align: center;
+  font-size: 22px;
+  display: block;
+}
+
+.sixthsection .buttons {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.button1 {
+  background-color: #FC9925;
+  border: 2px solid #FC9925;
+  color: #000;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.button2 {
+  background-color: #000;
+  color: #FC9925;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 2px solid #FC9925;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+
+/* navbar */
+
+.bteem_logo_header {
+  background-image: url(../images/iconset1.svg);
+  background-position: -106px -84px;
+  height: 43px;
+  width: 180px;
+  float: left;
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #FC9925 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+
+
+/*------/ Owl carousel /------*/
+.owl-carousel .owl-nav .owl-prev:focus,
+.owl-carousel .owl-nav .owl-next:focus {
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  outline: none;
+}
+
+/* carousel_se_01 */
+.carousel_se_01 .owl-theme .owl-dots {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.carousel_se_01 .owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+}
+
+.carousel_se_01 .owl-theme .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  margin: 5px 5px;
+  background:
+    #ff5e14;
+  border: 0px solid #ff5e14;
+  display: block;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel_se_01 .owl-theme .owl-dots .owl-dot:hover span {
+  color:
+    #fff;
+  background:
+    #ff5e14;
+  /*  border: 5px double;*/
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.carousel_se_01 .owl-theme .owl-dots .owl-dot.active span {
+  color:
+    #fff;
+  background:
+    #ff5e14;
+  opacity: 0.8;
+  padding: 5px;
+  border-radius: 50%;
+  background:
+    #ff5e14;
+}
+
+.carousel_se_01 .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  top: 42%;
+  right: -40px;
+  padding: 0px 15px 6px 15px !important;
+  background:
+    rgb(255, 255, 255);
+  display: inline-block;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 35px;
+  line-height: 35px;
+  color:
+    #e0571d;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+
+.carousel_se_01 .owl-carousel .owl-nav button.owl-next:hover {
+  background:
+    #ff5e14;
+  color:
+    #fff;
+}
+
+.carousel_se_01 .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 42%;
+  left: -40px;
+  padding: 0px 15px 6px 15px !important;
+  background:
+    rgb(255, 255, 255);
+  display: inline-block;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 35px;
+  line-height: 35px;
+  color:
+    #e0571d;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+
+.carousel_se_01 .owl-carousel .owl-nav button.owl-prev:hover {
+  background:
+    #ff5e14;
+  color:
+    #fff;
+}
+
+.carousel_se_01 .owl-arrow .owl-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.8rem;
+}
+
+.carousel_se_01 .owl-arrow .owl-nav .owl-prev,
+.carousel_se_01 .owl-arrow .owl-nav .owl-next {
+  display: inline-block;
+  transition: all 0.6s ease-in-out;
+  color:
+    #000000;
+}
+
+.carousel_se_01 .main_services {
+  position: relative;
+  margin: 30px 10px 30px 10px;
+  /* padding: 40px 15px 32px 15px; */
+  overflow: hidden;
+  text-align: center;
+  border: 2px solid #FC9925;
+  border-radius: 4px;
+  /* box-shadow: 12px 14px 0 #ececec; */
+  box-shadow: 7px 7px 10px 0 rgba(76, 110, 245, 0.1);
+  /* min-height: 348px; */
+}
+
+.carousel_se_01 .main_services:hover {
+  border: 1px solid #ededed;
+  box-shadow: none;
+}
+
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: transparent !important;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 19px !important;
+  border: 1px solid #FC9925 !important;
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-next,
+.owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.owl-next {
+  right: -50px;
+  display: flex;
+}
+
+.owl-prev {
+  left: -50px;
+  display: flex;
+}
+
+.owl-nav {
+  display: block !important;
+}
+
+.footersection p {
+  font-size: 12px;
+}
+
+.footersection .icons i {
+  padding: 10px 13px;
+  background: rgb(67 61 61);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+}
+
+.finalvision .icon {
+  float: left;
+  padding: 6px 13px;
+  background: rgb(67 61 61);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+
+}
+
+.finalvision .text1 {
+  display: block;
+  font-size: 10px;
+}
+
+.finalvision .text2 {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #343538;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-color: #343538;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #FC9925;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 6px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer ul {
+  padding: 0 !important;
+}
+
+footer ul li {
+  display: inline;
+  padding-right: 55px;
+  font-size: 14px;
+  color: #c1c1c1;
+}
+
+.rightcontent {
+  font-size: 14px;
+  color: #c1c1c1;
+  text-align: right;
+}
+
+.clinetlogo1 {
+  background-image: url(../images/iconset3.svg);
+  background-position: -2127px -723px;
+  height: 98px;
+  width: 100px;
+}
+
+.clinetlogo2 {
+  background-image: url(../images/iconset3.svg);
+  background-position: -1998px -724px;
+  height: 98px;
+  width: 100px;
+}
+
+.clinetlogo3 {
+  background-image: url(../images/iconset3.svg);
+  background-position: -2240px -363px;
+  height: 98px;
+  width: 108px;
+}
+
+.clinetlogo4 {
+  background-image: url(../images/iconset3.svg);
+  background-position: -2531px -239px;
+  height: 96px;
+  width: 161px;
+}
